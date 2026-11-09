@@ -1,0 +1,10 @@
+# Tout ignorer
+*
+
+# Ré-autoriser les dossiers, sinon Git ne regarde pas dedans
+!*/
+
+# Fichiers autorisés, ajoutés au fur et à mesure
+!.gitignore
+!README.md
+!requirements.txt
