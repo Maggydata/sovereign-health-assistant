@@ -8,3 +8,24 @@
 !.gitignore
 !README.md
 !requirements.txt
+!pytest.ini
+
+# Code : client LLM
+!src/__init__.py
+!src/llm/__init__.py
+!src/llm/client.py
+
+# Code : génération des données (étape 1)
+!data/__init__.py
+!data/scenarios.json
+!data/fidelite.py
+!data/identites.py
+!data/injection.py
+!data/generate.py
+
+# Tests
+!tests/test_llm_client.py
+!tests/test_fidelite.py
+!tests/test_identites.py
+!tests/test_injection.py
+!tests/test_generate.py

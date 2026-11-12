@@ -1,0 +1,4 @@
+ollama==0.6.3
+pytest==9.2.0
+faker==40.54.0
+pydantic==2.14.3

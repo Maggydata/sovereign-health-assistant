@@ -1,0 +1,101 @@
+[
+  {
+    "id": "P01",
+    "sexe": "M",
+    "age": 54,
+    "documents": [
+      {
+        "type": "consultation",
+        "jour": 0,
+        "rubriques": {
+          "motif": "douleurs thoraciques à l'effort depuis 3 semaines, cédant au repos",
+          "antecedents": "tabagisme 30 paquets-années ; HTA traitée par amlodipine",
+          "examen_clinique": "TA 145/90 ; auscultation cardio-pulmonaire normale",
+          "examens_complementaires": "ECG : sous-décalage ST en V4-V6 ; troponine négative",
+          "conclusion": "angor d'effort probable",
+          "traitement": "aspirine 75 mg ; bisoprolol 2,5 mg ; trinitrine en cas de douleur ; avis cardiologique pour épreuve d'effort ; sevrage tabagique"
+        },
+        "faits_critiques": ["paquets-années", "amlodipine", "145/90", "V4-V6", "aspirine", "75 mg", "bisoprolol", "2,5 mg", "trinitrine"]
+      },
+      {
+        "type": "consultation",
+        "jour": 42,
+        "rubriques": {
+          "motif": "suivi après épreuve d'effort",
+          "antecedents": "angor d'effort ; tabagisme sevré depuis 1 mois ; HTA traitée par amlodipine",
+          "examen_clinique": "TA 132/84 ; FC 58/min",
+          "examens_complementaires": "épreuve d'effort positive à 120 W ; coronarographie programmée",
+          "conclusion": "angor stable confirmé, bonne tolérance du bêtabloquant",
+          "traitement": "poursuite aspirine 75 mg et bisoprolol 2,5 mg ; ajout atorvastatine 40 mg"
+        },
+        "faits_critiques": ["132/84", "120 W", "coronarographie", "aspirine", "bisoprolol", "atorvastatine", "40 mg"]
+      }
+    ]
+  },
+  {
+    "id": "P02",
+    "sexe": "F",
+    "age": 67,
+    "documents": [
+      {
+        "type": "consultation",
+        "jour": 0,
+        "rubriques": {
+          "motif": "suivi de diabète de type 2, HbA1c élevée au dernier bilan",
+          "antecedents": "diabète de type 2 depuis 8 ans ; surpoids (IMC 31) ; dyslipidémie",
+          "examen_clinique": "TA 138/82 ; poids 82 kg ; sensibilité des pieds au monofilament conservée",
+          "examens_complementaires": "HbA1c 8,4 % ; DFG 72 mL/min ; LDL 1,45 g/L",
+          "conclusion": "diabète de type 2 déséquilibré",
+          "traitement": "metformine 1000 mg matin et soir ; ajout empagliflozine 10 mg ; rosuvastatine 10 mg ; consultation diététique"
+        },
+        "faits_critiques": ["IMC 31", "138/82", "82 kg", "monofilament", "8,4", "72 mL/min", "1,45 g/L", "metformine", "1000 mg", "empagliflozine", "rosuvastatine"]
+      },
+      {
+        "type": "consultation",
+        "jour": 91,
+        "rubriques": {
+          "motif": "contrôle trimestriel du diabète",
+          "antecedents": "diabète de type 2 ; dyslipidémie ; empagliflozine introduite il y a 3 mois",
+          "examen_clinique": "TA 130/78 ; poids 79 kg",
+          "examens_complementaires": "HbA1c 7,1 % ; DFG 70 mL/min ; LDL 0,92 g/L",
+          "conclusion": "amélioration de l'équilibre glycémique ; perte de 3 kg",
+          "traitement": "poursuite metformine 1000 mg et empagliflozine 10 mg ; poursuite rosuvastatine ; fond d'œil à programmer"
+        },
+        "faits_critiques": ["130/78", "79 kg", "7,1", "70 mL/min", "0,92 g/L", "metformine", "empagliflozine", "rosuvastatine"]
+      }
+    ]
+  },
+  {
+    "id": "P03",
+    "sexe": "F",
+    "age": 29,
+    "documents": [
+      {
+        "type": "consultation",
+        "jour": 0,
+        "rubriques": {
+          "motif": "toux nocturne et sifflements depuis 2 mois",
+          "antecedents": "rhinite allergique aux acariens ; non-fumeuse",
+          "examen_clinique": "sibilants expiratoires diffus ; SpO2 97 % ; FR 18/min",
+          "examens_complementaires": "spirométrie : VEMS 72 % de la théorique, réversibilité 15 % après salbutamol",
+          "conclusion": "asthme allergique partiellement contrôlé",
+          "traitement": "budésonide/formotérol 200/6 µg, 1 bouffée matin et soir ; salbutamol 100 µg à la demande ; éviction des acariens"
+        },
+        "faits_critiques": ["acariens", "SpO2", "VEMS", "72", "budésonide", "formotérol", "200/6", "salbutamol", "100 µg"]
+      },
+      {
+        "type": "consultation",
+        "jour": 30,
+        "rubriques": {
+          "motif": "réévaluation de l'asthme sous traitement de fond",
+          "antecedents": "asthme allergique ; rhinite allergique aux acariens",
+          "examen_clinique": "auscultation pulmonaire normale ; SpO2 99 %",
+          "examens_complementaires": "spirométrie : VEMS 91 % de la théorique ; ACT 22/25",
+          "conclusion": "asthme contrôlé",
+          "traitement": "poursuite budésonide/formotérol 200/6 µg ; salbutamol à la demande, utilisé 1 fois par semaine"
+        },
+        "faits_critiques": ["VEMS", "91", "22/25", "budésonide", "formotérol", "200/6", "salbutamol"]
+      }
+    ]
+  }
+]
